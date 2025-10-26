@@ -13,8 +13,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Project Funding",
-  description: "List your project & get funding for your project. A Platform for Raising Funds for Projects.",
+  title: "Back It",
+  description: "Bring your vision to life. The platform where innovators meet investors and great projects get funded.",
   icons: {
     icon: "/BackIt.svg"
   },
