@@ -14,6 +14,9 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Project Funding",
   description: "List your project & get funding for your project. A Platform for Raising Funds for Projects.",
+  icons: {
+    icon: "/projectfunding.svg"
+  },
 };
 
 export default function RootLayout({
