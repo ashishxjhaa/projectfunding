@@ -91,7 +91,7 @@ export default function Footer() {
             <div className="py-8 flex justify-between lg:max-w-4xl px-4 sm:px-10 mx-auto">
                 <p className="dark:text-white text-black opacity-80 hidden sm:flex items-center gap-2">
                     <MdCopyright />
-                    <span className="tracking-wide text-xs md:text-md">{new Date().getFullYear()} BackIt Private Limited - All rights reserved.</span>
+                    <span className="tracking-wide text-xs md:text-sm">{new Date().getFullYear()} BackIt Private Limited - All rights reserved.</span>
                 </p>
                 <Link 
                     href="https://github.com/ashishxjhaa/BackIt" 
