@@ -13,7 +13,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Back It",
+  title: "BackIt - A launch platform for your products | BackIt",
   description: "Bring your vision to life. The platform where innovators meet investors and great projects get funded.",
   icons: {
     icon: "/BackIt.svg"
