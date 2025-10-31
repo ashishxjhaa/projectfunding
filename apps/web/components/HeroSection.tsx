@@ -2,6 +2,10 @@
 
 import Image from "next/image";
 import { HoverBorderGradient } from "./ui/hover-border-gradient";
+import { Button } from "./ui/button";
+import Link from "next/link";
+import { IoArrowForward } from "react-icons/io5";
+import { AnimatedTooltipPreview } from "./AnimatedTooltipPreview";
 
 
 export default function HeroSection() {
@@ -16,8 +20,21 @@ export default function HeroSection() {
                 <BackitLogo />
                 <span>Ideas deserve funding</span>
             </HoverBorderGradient>
-            <h1 className="text-black dark:text-white font-medium tracking-wide text-2xl sm:text-4xl md:text-6xl text-center pt-10 sm:pt-15">Every project funded, <br /> one click away.</h1>
-            <p></p>
+            <div className="text-black dark:text-white text-center max-w-md md:max-w-2xl flex flex-col gap-5">
+                <h1 className="font-normal sm:font-medium -tracking-normal text-lg sm:text-4xl md:text-6xl pt-10 leading-tight">Every project funded, one click away.</h1>
+                <p className="font-light leading-relaxed px-12 sm:px-0 text-xs sm:text-base">
+                    From concept to cash in minutes. Launch your ideas, connect with backers. <br className="hidden md:block" /> The simplest way to fund what matters.
+                </p>
+            </div>
+            <div className="flex flex-col sm:flex-row items-start gap-6 pt-10 sm:pt-15">
+                <Button variant='default' asChild>
+                    <Link href="/product" className="cursor-default px-8!">List your project <IoArrowForward /> </Link>
+                </Button>
+                <div className="flex flex-col gap-2">
+                    <AnimatedTooltipPreview />
+                    <div>Trusted by 100+ devs</div>
+                </div>
+            </div>
         </div>
     )
 }

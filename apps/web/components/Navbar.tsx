@@ -19,8 +19,8 @@ export default function Navbar() {
                         height={40}
                         className="object-cover"
                     />
-                    <div className="text-black opacity-80 dark:text-white text-xl font-semibold tracking-wide cursor-default">
-                        BackIt
+                    <div className="text-black opacity-90 dark:text-white text-xl font-medium tracking-wide cursor-default">
+                        Back.It
                     </div>
                 </Link>
                 <div className="hidden md:flex items-center gap-8 text-black dark:text-white font-light cursor-default">
