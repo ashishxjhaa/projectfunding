@@ -22,7 +22,7 @@ export default function Bentogrid() {
                                 <h3 className="mb-2 sm:mb-3 text-lg sm:text-xl font-bold tracking-wide">Quick Launch</h3>
                                 <p className="text-sm sm:text-base opacity-90">Create and publish your project in minutes with our streamlined campaign builder.</p>
                                 
-                                <div className="text-orange-400 mt-4 sm:mt-5 flex items-center text-sm font-medium opacity-0 transition-opacity duration-300 group-hover:opacity-100 cursor-pointer">
+                                <div className="text-[#FF8162] mt-4 sm:mt-5 flex items-center text-sm font-medium opacity-0 transition-opacity duration-300 group-hover:opacity-100 cursor-pointer">
                                     <span>Learn more</span>
                                     <ArrowRight className='ml-1 h-4 w-4' />
                                 </div>
@@ -39,7 +39,7 @@ export default function Bentogrid() {
                                 <h3 className="mb-2 sm:mb-3 text-lg sm:text-xl font-bold tracking-wide">Smart Analytics</h3>
                                 <p className="text-sm sm:text-base opacity-90">Monitor your funding progress, backer activity, and campaign performance in real-time.</p>
                                 
-                                <div className="text-orange-400 mt-4 sm:mt-5 flex items-center text-sm font-medium opacity-0 transition-opacity duration-300 group-hover:opacity-100 cursor-pointer">
+                                <div className="text-[#FF8162] mt-4 sm:mt-5 flex items-center text-sm font-medium opacity-0 transition-opacity duration-300 group-hover:opacity-100 cursor-pointer">
                                     <span>Learn more</span>
                                     <ArrowRight className='ml-1 h-4 w-4' />
                                 </div>
@@ -56,7 +56,7 @@ export default function Bentogrid() {
                                 <h3 className="mb-2 sm:mb-3 text-lg sm:text-xl font-bold tracking-wide">Backer Network</h3>
                                 <p className="text-sm sm:text-base opacity-90">Connect with thousands of active investors looking for innovative projects to support.</p>
                                 
-                                <div className="text-orange-400 mt-4 sm:mt-5 flex items-center text-sm font-medium opacity-0 transition-opacity duration-300 group-hover:opacity-100 cursor-pointer">
+                                <div className="text-[#FF8162] mt-4 sm:mt-5 flex items-center text-sm font-medium opacity-0 transition-opacity duration-300 group-hover:opacity-100 cursor-pointer">
                                     <span>Learn more</span>
                                     <ArrowRight className='ml-1 h-4 w-4' />
                                 </div>
@@ -73,7 +73,7 @@ export default function Bentogrid() {
                                 <h3 className="mb-2 sm:mb-3 text-lg sm:text-xl font-bold tracking-wide">Funding Milestones</h3>
                                 <p className="text-sm sm:text-base opacity-90">Set and track funding goals with visual progress indicators and milestone celebrations.</p>
                                 
-                                <div className="text-orange-400 mt-4 sm:mt-5 flex items-center text-sm font-medium opacity-0 transition-opacity duration-300 group-hover:opacity-100 cursor-pointer">
+                                <div className="text-[#FF8162] mt-4 sm:mt-5 flex items-center text-sm font-medium opacity-0 transition-opacity duration-300 group-hover:opacity-100 cursor-pointer">
                                     <span>Learn more</span>
                                     <ArrowRight className='ml-1 h-4 w-4' />
                                 </div>
@@ -90,7 +90,7 @@ export default function Bentogrid() {
                                 <h3 className="mb-2 sm:mb-3 text-lg sm:text-xl font-bold tracking-wide">Campaign Updates</h3>
                                 <p className="text-sm sm:text-base opacity-90">Keep your backers engaged with progress updates, stretch goals, and exclusive content.</p>
                                 
-                                <div className="text-orange-400 mt-4 sm:mt-5 flex items-center text-sm font-medium opacity-0 transition-opacity duration-300 group-hover:opacity-100 cursor-pointer">
+                                <div className="text-[#FF8162] mt-4 sm:mt-5 flex items-center text-sm font-medium opacity-0 transition-opacity duration-300 group-hover:opacity-100 cursor-pointer">
                                     <span>Learn more</span>
                                     <ArrowRight className='ml-1 h-4 w-4' />
                                 </div>
@@ -107,7 +107,7 @@ export default function Bentogrid() {
                                 <h3 className="mb-2 sm:mb-3 text-lg sm:text-xl font-bold tracking-wide">Secure Payments</h3>
                                 <p className="text-sm sm:text-base opacity-90">Safe and reliable payment processing with support for multiple currencies and methods.</p>
                                 
-                                <div className="text-orange-400 mt-4 sm:mt-5 flex items-center text-sm font-medium opacity-0 transition-opacity duration-300 group-hover:opacity-100 cursor-pointer">
+                                <div className="text-[#FF8162] mt-4 sm:mt-5 flex items-center text-sm font-medium opacity-0 transition-opacity duration-300 group-hover:opacity-100 cursor-pointer">
                                     <span>Learn more</span>
                                     <ArrowRight className='ml-1 h-4 w-4' />
                                 </div>

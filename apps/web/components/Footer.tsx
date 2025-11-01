@@ -10,7 +10,7 @@ import { MdCopyright } from "react-icons/md";
 export default function Footer() {
 
     return (
-        <footer className="pt-40">
+        <footer className="pt-10 sm:pt-15">
             <div className="flex flex-col xl:flex-row lg:px-40 w-full justify-between items-center xl:items-start pb-15 lg:pb-10">
                 <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto xl:mx-0">
                     <h1 className="font-normal text-2xl md:text-3xl tracking-wide dark:text-white text-black opacity-95">Stay connected</h1>

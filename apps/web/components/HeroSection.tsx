@@ -7,6 +7,8 @@ import Link from "next/link";
 import { IoArrowForward } from "react-icons/io5";
 import { AnimatedTooltipPreview } from "./AnimatedTooltipPreview";
 import Bentogrid from "./Bentogrid";
+import Stats from "./Stats";
+import Faq from "./Faq";
 
 
 export default function HeroSection() {
@@ -43,6 +45,12 @@ export default function HeroSection() {
             </div>
         </div>
         <Bentogrid />
+        <Stats />
+        <Faq />
+        <div className='pt-12 sm:pt-18 w-full'>
+            <Image src="/background.svg" alt="hero-image" className="h-5 sm:h-7 md:h-9 object-cover w-full" width={10} height={10}/>
+            <Image src="/background.svg" alt="hero-image" className="rotate-180 h-5 sm:h-7 md:h-9 object-cover w-full" width={10} height={10}/>
+        </div>
         </>
     )
 }
