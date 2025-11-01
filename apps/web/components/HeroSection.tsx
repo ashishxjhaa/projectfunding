@@ -23,7 +23,7 @@ export default function HeroSection() {
                 <span>Ideas deserve funding</span>
             </HoverBorderGradient>
             <div className="text-black dark:text-white text-center max-w-md md:max-w-2xl flex flex-col gap-5">
-                <h1 className="font-normal sm:font-medium -tracking-normal text-lg sm:text-4xl md:text-6xl pt-10 leading-tight">Every project funded, one click away.</h1>
+                <h1 className="font-normal sm:font-medium -tracking-normal text-lg sm:text-4xl md:text-6xl pt-10 leading-tight opacity-85 dark:opacity-100">Every project funded, one click away.</h1>
                 <p className="font-light leading-relaxed px-12 sm:px-0 text-xs sm:text-base">
                     From concept to cash in minutes. Launch your ideas, connect with backers. <br className="hidden md:block" /> The simplest way to fund what matters.
                 </p>

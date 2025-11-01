@@ -7,7 +7,7 @@ export default function Bentogrid() {
         <div className="py-24">
             <div className="container px-4 md:px-6 w-full mx-auto">
                 <div className="mb-16 text-center">
-                    <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl bg-clip-text text-transparent bg-linear-to-r from-white to-white/80">Launch Your Vision</h2>
+                    <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl opacity-85 dark:opacity-100">Launch Your Vision</h2>
                     <p className="mx-auto mt-4 max-w-[700px] opacity-70 md:text-xl">Connect with backers, fund your ideas, and turn concepts into reality.</p>
                 </div>
             
