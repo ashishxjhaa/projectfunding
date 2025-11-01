@@ -13,7 +13,7 @@ export default function Footer() {
         <footer className="pt-40">
             <div className="flex flex-col xl:flex-row lg:px-40 w-full justify-between items-center xl:items-start pb-15 lg:pb-10">
                 <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto xl:mx-0">
-                    <h1 className="font-normal text-2xl tracking-wide dark:text-white text-black opacity-95">Stay connected</h1>
+                    <h1 className="font-normal text-2xl md:text-3xl tracking-wide dark:text-white text-black opacity-95">Stay connected</h1>
                     <p className="font-light dark:text-white text-black opacity-75 pt-2 pb-8 max-w-sm">Subscribe to our newsletter for the latest updates, resources, and exclusive offers.</p>
                 </div>
                 <div className="flex items-center gap-3 mx-auto xl:mx-0">
